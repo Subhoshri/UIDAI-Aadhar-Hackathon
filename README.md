@@ -9,7 +9,10 @@ The analysis uses three UIDAI-provided datasets:
 - Demographic update dataset (age-wise demographic updates)
 - Biometric update dataset (age-wise biometric updates)
 
-Due to size constraints, datasets are not included in this repository.
+The datasets used in this project were provided as part of the UIDAI Hackathon and consist of large, multi-file CSV datasets.
+Due to size constraints, raw data files are not included in this repository.
+
+Users can reproduce the analysis by downloading the Aadhaar Enrolment, Demographic Update, and Biometric Update datasets from the official UIDAI Hackathon data portal and placing them in the /data directory as described below.
 
 ## Repository Structure
 - 01_data_ingestion_and_cleaning.ipynb: Data concatenation, cleaning, validation
