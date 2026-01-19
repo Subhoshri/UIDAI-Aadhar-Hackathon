@@ -15,16 +15,16 @@ Due to size constraints, raw data files are not included in this repository.
 Users can reproduce the analysis by downloading the Aadhaar Enrolment, Demographic Update, and Biometric Update datasets from the official UIDAI Hackathon data portal and placing them in the /data directory as described below.
 
 ## Repository Structure
-- 01_data_ingestion_and_cleaning.ipynb: Data concatenation, cleaning, validation
-- 02_feature_engineering_and_eda.ipynb: Feature engineering, aggregation, exploratory analysis
-- data/
-  ├── enrolment/
-      ├── clean/
-      ├── raw/
-  ├── demographic/
-      ├── clean/
-      ├── raw/
-  └── biometric/
-      ├── clean/
-      ├── raw/
- - intermediate/     
+├── 01_data_ingestion_and_cleaning.ipynb: Data concatenation, cleaning, validation
+├── 02_feature_engineering_and_eda.ipynb: Feature engineering, aggregation, exploratory analysis
+├── data/
+    ├── enrolment/
+        ├── clean/
+        └── raw/
+    ├── demographic/
+        ├── clean/
+        └── raw/
+    └── biometric/
+        ├── clean/
+        └── raw/
+ └── intermediate/     
